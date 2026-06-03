@@ -11,18 +11,17 @@ SCH-001-003 is similar to YPCB-00338-1P1. [Thanks to Tifer King], we know it is
 hackable. Based on Tifer's work, this project targets *the Baidu 2015 variant*
 (SCH-001-003).
 
-## Status
-
-Identified chips implemented on SCH-001-003:
+## Hardware Specification
 
 - FPGA: XC7K480T-2FFG1156I
   - Package: 1156-pin BGA
   - Speed grade: -2
   - Temperature range: Industrial
 - DRAM: 18x SK hynix H5TC2G83FFR (256 MiB)
-  - Probably data (4 GiB) + ECC parity (512 MiB)
+  - Data (4 GiB) + ECC parity (512 MiB) (probably)
 - Flash: Micron MT28GU512AAA1EGC-0SIT (64 MiB)
   - FBGA code: RB119
+- Host-to-device interface: PCI Express 2.0 x8
 
 ## License
 
