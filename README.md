@@ -21,7 +21,8 @@ hackable. Based on Tifer's work, this project targets *the Baidu 2015 variant*
   - Data (4 GiB) + ECC parity (512 MiB) (probably)
 - Flash: Micron MT28GU512AAA1EGC-0SIT (64 MiB)
   - FBGA code: RB119
-- Host-to-device interface: PCI Express 2.0 x8
+- Data transfer interface: PCI Express 2.0 x8
+- Debug interface: Xilinx standard JTAG (14-pin)
 
 ## License
 
