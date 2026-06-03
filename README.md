@@ -21,7 +21,7 @@ Identified chips implemented on SCH-001-003:
   - Temperature range: Industrial
 - DRAM: 18x SK hynix H5TC2G83FFR (256 MiB)
   - Probably data (4 GiB) + ECC parity (512 MiB)
-- Flash: Micron MT28GU512AAA1EGC-0SIT
+- Flash: Micron MT28GU512AAA1EGC-0SIT (64 MiB)
   - FBGA code: RB119
 
 ## License
