@@ -17,7 +17,7 @@ open-source tools [thanks to Tifer King].
   - Speed grade: -2
   - Temperature range: Industrial
 - DRAM: 18x SK Hynix H5TC2G83FFR (256 MiB)
-  - Data (4 GiB) + ECC parity (512 MiB) (probably)
+  - 4 GiB Data + 512 MiB ECC Parity (?)
 - Flash: Micron MT28GU512AAA1EGC-0SIT (64 MiB)
   - FBGA code: RB119
 - Data transfer interface: PCI Express 2.0 x8
