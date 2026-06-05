@@ -40,7 +40,7 @@ GitHub issues.)
 6. Choose *mt28gu512aax1e-bpi-x16* or similar.
 7. Right-click *mt28gu512aax1e-bpi-x16* (or similar) and choose *Readback
    Configuration Memory Device...*
-8. Select appropriate options and click *OK*
+8. Set appropriate options and click *OK*
 
 ## License
 
