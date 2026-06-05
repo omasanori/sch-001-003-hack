@@ -12,19 +12,35 @@ open-source tools [thanks to Tifer King].
 
 ## Hardware Specification
 
-- FPGA: XC7K480T-2FFG1156I
+- FPGA: AMD (Xilinx) XC7K480T-2FFG1156I
   - Package: 1156-pin BGA
   - Speed grade: -2
   - Temperature range: Industrial
-- DRAM: 18x SK hynix H5TC2G83FFR (256 MiB)
+- DRAM: 18x SK Hynix H5TC2G83FFR (256 MiB)
   - Data (4 GiB) + ECC parity (512 MiB) (probably)
 - Flash: Micron MT28GU512AAA1EGC-0SIT (64 MiB)
   - FBGA code: RB119
 - Data transfer interface: PCI Express 2.0 x8
-- Debug interface: Xilinx standard JTAG (14-pin)
+- Debug interface: AMD (Xilinx) standard JTAG (14-pin)
 
 (If you have a SCH-001-003 with a different DRAM or flash chip, inform me via
-GitHub issue.)
+GitHub issues.)
+
+## How to Dump the Original Configuration from Flash
+
+1. Connect to the device's 14-pin debug interface. I used JTAG-HS3.
+2. Launch Vivado Hardware Manager. Lab Edition is fine.
+3. Click the *Open Target* and choose *Auto Connect*
+4. Right-click *xc7k480t_0* and choose *Add Configuration Memory Device...*
+5. Filter with:
+   - Manufacturer: Micron
+   - Density: 512
+   - Width: 16
+   - Type: bpi
+6. Choose *mt28gu512aax1e-bpi-x16* or similar.
+7. Right-click *mt28gu512aax1e-bpi-x16* (or similar) and choose *Readback
+   Configuration Memory Device...*
+8. Select appropriate options and click *OK*
 
 ## License
 
